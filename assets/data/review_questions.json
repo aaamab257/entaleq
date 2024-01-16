@@ -1,0 +1,302 @@
+[
+    {
+        "questionId": "0",
+        "questionValue": "ratingOfParking",
+        "question1StarScore": 5.0,
+        "question2StarsScore": 20.0,
+        "question3StarsScore": 30.0,
+        "totalScore": 0.0,
+        "starRating": 0.0,
+        "steps": [
+            {
+                "stepId": "step_1_1",
+                "stepTitle": "Parking",
+                "stepTitleAr": "اماكن الانتظار",
+                "iconPath": "https://svgshare.com/i/11fX.svg",
+                "responses": [
+                    {
+                        "responseId": "1_1_1",
+                        "responseTitle": "Disability parking spaces available (private or public parking).",
+                        "responseTitleAr": " يوجد أماكن انتظار سيارات مخصصة للأشخاص ذوى الإعاقة.",
+                        "defaultScore": 0.0,
+                        "score": 30.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "1_1_2",
+                        "responseTitle": "Private parking spaces available.",
+                        "responseTitleAr": " يوجد أماكن انتظار للسيارات خاصة بالمكان.",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "1_1_3",
+                        "responseTitle": "Street parking spaces available (around 100 m walking distance to the place entrance).",
+                        "responseTitleAr": " يوجد أماكن انتظار للسيارات فى الشارع تبعد حوالى 100 متر عن مدخل المكان.",
+                        "defaultScore": 0.0,
+                        "score": 5.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "1_1_4",
+                        "responseTitle": "A staff member is assigned to park the cars (valet service).",
+                        "responseTitleAr": " يوجد شخص مسئول عن ركن السيارات (خدمة الڤاليه).",
+                        "defaultScore": 0.0,
+                        "score": 20.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "1_1_5",
+                        "responseTitle": "Drop-off area available.",
+                        "responseTitleAr": "  يوجد مساحة لنزول الركاب أمام المكان.",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionId": "1",
+        "questionValue": "ratingOfPavements",
+        "question1StarScore": 15.0,
+        "question2StarsScore": 25.0,
+        "question3StarsScore": 50.0,
+        "totalScore": 0.0,
+        "starRating": 0.0,
+        "steps": [
+            {
+                "stepId": "step_2_1",
+                "stepTitle": "Pavements",
+                "stepTitleAr": "الرصيف ",
+                "iconPath": "https://svgshare.com/i/11e7.svg",
+                "responses": [
+                    {
+                        "responseId": "2_1_1",
+                        "responseTitle": "No pavement.",
+                        "responseTitleAr": " لا يوجد رصيف.",
+                        "defaultScore": 0.0,
+                        "score": 15.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_1_3",
+                        "responseTitle": "Pavement height is less than 15 cm (smart phone height).",
+                        "responseTitleAr": "  ارتفاع الرصيف أقل من 15 سم - (حوالي طول هاتف ذكي).",
+                        "defaultScore": 0.0,
+                        "score": 5.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_1_4",
+                        "responseTitle": "Ramp available at the pavement. ",
+                        "responseTitleAr": "يوجد منحدر بالرصيف.",
+                        "defaultScore": 0.0,
+                        "score": 15.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_1_5",
+                        "responseTitle": " Flat and clear path to front door (not slippery nor broken and there are no obstacles on the way).",
+                        "responseTitleAr": "الطريق إلى المكان ليس به تكسير ولا عوائق ولا يسبب الأنزلاق.",
+                        "defaultScore": 0.0,
+                        "score": 20.0,
+                        "isSelected": false
+                    }
+                ]
+            },
+            {
+                "stepId": "step_2_2",
+                "stepTitle": "Entrance Steps",
+                "stepTitleAr": "سلالم المدخل",
+                "iconPath": "https://svgshare.com/i/11eb.svg",
+                "responses": [
+                    {
+                        "responseId": "2_2_1",
+                        "responseTitle": "No steps / 0",
+                        "responseTitleAr": "لا يوجد سلالم  / 0",
+                        "defaultScore": 0.0,
+                        "score": 20.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_2_2",
+                        "responseTitle": " One step / 1",
+                        "responseTitleAr": "سلمة واحدة / 1",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_2_3",
+                        "responseTitle": " Two steps / 2",
+                        "responseTitleAr": "سلمتين / 2",
+                        "defaultScore": 0.0,
+                        "score": 0.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_2_4",
+                        "responseTitle": " Three steps / 3",
+                        "responseTitleAr": "ثلاث سلالم / 3",
+                        "defaultScore": 0.0,
+                        "score": 0.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_2_5",
+                        "responseTitle": " Four steps or more/ 4+",
+                        "responseTitleAr": "اربع سلالم أو أكثر / 4+",
+                        "defaultScore": 0.0,
+                        "score": 0.0,
+                        "isSelected": false
+                    }
+                ]
+            },
+            {
+                "stepId": "step_2_3",
+                "stepTitle": "Doors and Entrances",
+                "stepTitleAr": "الابواب و المداخل",
+                "iconPath": "https://svgshare.com/i/11fo.svg",
+                "responses": [
+                    {
+                        "responseId": "2_3_1",
+                        "responseTitle": "There are steps to the entrance, and there are ramps or elevators as alternatives.  ",
+                        "responseTitleAr": "يوجد سلالم للمدخل ويوجد منحدرات او مصاعد كبديل لها.",
+                        "defaultScore": 0.0,
+                        "score": 20,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_3_2",
+                        "responseTitle": "Handrails are available at the entrance.",
+                        "responseTitleAr": " يوجد درابزين عند المدخل.",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "2_3_3",
+                        "responseTitle": "Entrance doors' width allow wheelchair users to pass / wide doorway.",
+                        "responseTitleAr": " عرض ابواب المدخل يسمح بمرور مستخدمي الكراسى المتحركة.",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionId": "2",
+        "questionValue": "ratingOfServicesAccessability",
+        "question1StarScore": 0.0,
+        "question2StarsScore": 10.0,
+        "question3StarsScore": 30.0,
+        "totalScore": 0.0,
+        "starRating": 0.0,
+        "steps": [
+            {
+                "stepId": "step_3_1",
+                "stepTitle": "Service Accessibility",
+                "stepTitleAr": "سهولة الوصول للخدمة ",
+                "iconPath": "https://svgshare.com/i/11fM.svg",
+                "responses": [
+                    {
+                        "responseId": "3_1_1",
+                        "responseTitle": "Easy access to service(s) inside the place for wheelchair users. (space is wide and clear). ",
+                        "responseTitleAr": " الوصول للخدمات  سهل لمستخدمي الكراسي المتحركة. (المكان واسع ولا يوجد عواقب)",
+                        "defaultScore": 0.0,
+                        "score": 15.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "3_1_2",
+                        "responseTitle": "The service is available at the ground floor of the venue.",
+                        "responseTitleAr": "الخدمة تقدم فى الدور الأرضي بالمكان.",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "3_1_3",
+                        "responseTitle": "The service is available at more than one floor in the venue. ",
+                        "responseTitleAr": "الخدمة تقدم فى أكثر من دور بالمكان.",
+                        "defaultScore": 0,
+                        "score": 0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "3_1_4",
+                        "responseTitle": "There are no stairs to the service, or there are stairs and there are ramps or elevators as alternatives. ",
+                        "responseTitleAr": "لا يوجد سلالم للخدمة او يوجد سلالم ويوجد منحدرات او مصاعد كبديل لها.",
+                        "defaultScore": 0.0,
+                        "score": 15,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "3_1_5",
+                        "responseTitle": "There is an elevator.",
+                        "responseTitleAr": "يوجد مصعد.",
+                        "defaultScore": 0.0,
+                        "score": 0.0,
+                        "isSelected": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionId": "3",
+        "questionValue": "ratingOfToilets",
+        "question1StarScore": 5.0,
+        "question2StarsScore": 10.0,
+        "question3StarsScore": 20.0,
+        "totalScore": 0.0,
+        "starRating": 0.0,
+        "steps": [
+            {
+                "stepId": "step_4_1",
+                "stepTitle": "Toilets",
+                "stepTitleAr": "الحمامات ",
+                "iconPath": "https://svgshare.com/i/11eH.svg",
+                "responses": [
+                    {
+                        "responseId": "4_1_1",
+                        "responseTitle": "Disability toilet allocated for persons with disabilities. ",
+                        "responseTitleAr": "يوجد حمام مخصص للأشخاص ذوى الإعاقة.",
+                        "defaultScore": 0.0,
+                        "score": 20.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "4_1_2",
+                        "responseTitle": "Unisex toilet allocated for persons with disabilities.",
+                        "responseTitleAr": "يوجد حمام مختلط مخصص للاشخاص ذوي الإعاقة (للسيدات والرجال).",
+                        "defaultScore": 0.0,
+                        "score": 20.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "4_1_3",
+                        "responseTitle": "There is at least one toilet compartment wide enough for wheelchair users.",
+                        "responseTitleAr": " يوجد على الاقل كابينة واحدة بالحمام واسعة كفاية لمستخدمي الكراسي المتحركة.",
+                        "defaultScore": 0.0,
+                        "score": 10.0,
+                        "isSelected": false
+                    },
+                    {
+                        "responseId": "4_1_4",
+                        "responseTitle": "There are fixed grab bars for toilet seats.",
+                        "responseTitleAr": "يوجد مساند حول المرحاض.",
+                        "defaultScore": 0.0,
+                        "score": 5.0,
+                        "isSelected": false
+                    }
+                ]
+            }
+        ]
+    }
+]
